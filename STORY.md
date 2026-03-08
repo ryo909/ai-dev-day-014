@@ -1,4 +1,4 @@
-# Day014 Story — Onboarding Checklist Smith
+# Day014 Story — Flow Board Builder
 
 ## Why
 毎日使う小さな課題を、1ページで即解決できる形にしたかったため。
@@ -10,13 +10,13 @@
 
 ## Design highlights
 - Day014専用にテーマをseed固定して再生成時の見た目を安定化
-- planning用途に寄せた単機能UIで迷いを減らす
+- devtools用途に寄せた単機能UIで迷いを減らす
 - 出力をそのまま再利用できるテキスト構造
-- Family: onboarding_flow
-- Mechanic: milestone_chunking
-- Input/Output: role_and_tasks -> onboarding_plan
-- Audience Promise: faster_team_rampup
-- Publish Hook: 初週で迷わない受け入れ手順を即生成
+- Family: flow_board
+- Mechanic: lane_movement
+- Input/Output: card_creation -> lane_board
+- Audience Promise: clearer_flow_visibility
+- Publish Hook: 詰まりレーンを可視化して改善
 - Complexity Tier: large
 - Selected components: none
 - Complexity hint: Create a showpiece version by adding around 3 safe enhancement components from selected_components, but avoid risky architecture changes.
@@ -31,5 +31,5 @@
 - エクスポート形式拡張
 
 ## Social copy
-Day014｜Onboarding Checklist Smith
-新メンバーの初週導線を迷わず回すためのオンボーディング設計ツール。（話題:HN Frontpage）
+Day014｜Flow Board Builder
+作業カードを流しながらボトルネックを見つけるボード型ツール。（話題:HN Frontpage）

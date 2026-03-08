@@ -1,29 +1,29 @@
-# Day014 — Onboarding Checklist Smith
+# Day014 — Flow Board Builder
 
-> 新メンバーの初週導線を迷わず回すためのオンボーディング設計ツール。（話題:HN Frontpage）
+> 作業カードを流しながらボトルネックを見つけるボード型ツール。（話題:HN Frontpage）
 >
 > Complexity Tier: large
 >
 > Selected Components: none
 >
-> Family / Mechanic: onboarding_flow / milestone_chunking
+> Family / Mechanic: flow_board / lane_movement
 >
-> Input -> Output: role_and_tasks -> onboarding_plan
+> Input -> Output: card_creation -> lane_board
 >
-> Audience Promise: faster_team_rampup
+> Audience Promise: clearer_flow_visibility
 
 ## 使い方
 
 1. ページを開く
-2. 役割と初週タスクを入力する
-3. 「実行する」を実行する
-4. 初週オンボーディング案を確認して必要に応じて再入力する
+2. カード作成を入力する
+3. 「カードを動かす」を実行する
+4. フローボードを確認して必要に応じて再入力する
 
 ## Story
 
 - [制作ストーリー](./STORY.md)
 - Complexity hint: Create a showpiece version by adding around 3 safe enhancement components from selected_components, but avoid risky architecture changes.
-- Publish hook: 初週で迷わない受け入れ手順を即生成
+- Publish hook: 詰まりレーンを可視化して改善
 
 ## Demo
 
