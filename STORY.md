@@ -1,4 +1,4 @@
-# Day014 Story — Focus Slot Composer
+# Day014 Story — Onboarding Checklist Smith
 
 ## Why
 毎日使う小さな課題を、1ページで即解決できる形にしたかったため。
@@ -10,8 +10,13 @@
 
 ## Design highlights
 - Day014専用にテーマをseed固定して再生成時の見た目を安定化
-- productivity用途に寄せた単機能UIで迷いを減らす
+- planning用途に寄せた単機能UIで迷いを減らす
 - 出力をそのまま再利用できるテキスト構造
+- Family: onboarding_flow
+- Mechanic: milestone_chunking
+- Input/Output: role_and_tasks -> onboarding_plan
+- Audience Promise: faster_team_rampup
+- Publish Hook: 初週で迷わない受け入れ手順を即生成
 - Complexity Tier: large
 - Selected components: none
 - Complexity hint: Create a showpiece version by adding around 3 safe enhancement components from selected_components, but avoid risky architecture changes.
@@ -26,5 +31,5 @@
 - エクスポート形式拡張
 
 ## Social copy
-Day014｜Focus Slot Composer
-作業時間から集中と休憩の実行順を自動で作る生産性ツール。（話題:HN Frontpage）
+Day014｜Onboarding Checklist Smith
+新メンバーの初週導線を迷わず回すためのオンボーディング設計ツール。（話題:HN Frontpage）
